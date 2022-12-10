@@ -1,0 +1,87 @@
+@media (min-width: 992px) and (max-width:1099px){
+    #banner .banner_slider .banner_Cnt h2 {
+        line-height: 50px;
+    }
+    #banner .slick-dots {
+        left: 30px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width:891px){
+#banner  .banner_slider {
+    height: 500px;
+    }
+    #banner  .banner_slider .row {
+        height: 500px;
+    }
+    #banner .banner_slider .banner_Cnt h2 {
+        
+        font-size: 42px;
+        line-height: 46px;
+     
+}
+.button {
+    padding: 12px 22px;
+    font-size: 12px;
+}
+#banner .banner_slider .banner_Cnt .rightArrow {
+    font-size: 18px;
+    font-weight: 400;
+}
+#banner .slick-dots {
+    bottom: 55px;
+    left: 35px;
+}
+}
+@media (min-width: 320px) and (max-width:767px){
+    #banner  .banner_slider {
+        height: 300px;
+        }
+        #banner  .banner_slider .row {
+            height: 300px;
+        }
+        #banner .banner_slider .banner_Cnt {
+            width: 100%;
+        }
+        #banner .banner_slider .banner_Cnt h2 {
+            font-size: 25px;
+            line-height: 25px;
+        }
+        #banner .banner_slider .banner_Cnt h6 {
+            font-size: 18px;
+            line-height: 15px;
+            
+        }
+        #banner .banner_slider .banner_Cnt p {
+            
+            font-size: 10px;
+            line-height: 15px;
+           
+        }
+        .button {
+            padding: 10px 12px;
+            font-size: 12px;
+        }
+        #banner .banner_slider .banner_Cnt .rightArrow {
+            font-size: 15px;
+            font-weight: 400;
+        }
+        #banner .slick-dots {
+            position: absolute;
+            bottom: -8px;
+            left: 107px;
+        }
+        #banner .banner_slider .banner_Cnt p {
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        #banner .slick-dots button{
+            transform: scale(0.5);
+        }
+
+
+}
